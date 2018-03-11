@@ -1,0 +1,82 @@
+* {
+	padding: 0px;
+	margin: 0px;	
+}	
+body {
+	background-color: #ff471a;
+}
+article > div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+#left {
+	background: url('http://f64.space/wp-content/uploads/2017/12/dark-tv-netflix.jpg')no-repeat center ;
+ 
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 100px;
+	width: 30%;
+	background-color: #ff471a;
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+	color: #fafafa;
+	border: 3px solid #ff471a;
+	font-size: 80px;
+	font-family: Arial;
+	font-family: 'Rammetto One', cursive;
+	text-align: left;
+}
+#center {
+	background: url('http://f64.space/wp-content/uploads/2017/12/dark-tv-netflix.jpg')no-repeat center ;
+
+ 
+	height: 100px;
+	width: 33%;
+	background-color: #ff3300;
+	float: right;
+	padding: 10px;
+	border: 3px solid #ff471a;
+	font-size: 80px;
+	text-align: center;
+	text-decoration: overline;
+	margin-left: 0px;
+	color: #BDB76B;
+	font-family: 'Rammetto One', cursive;
+	margin-top: 10px;
+	margin-right: 12px;
+}
+
+
+#right {
+	background: url('http://f64.space/wp-content/uploads/2017/12/dark-tv-netflix.jpg')no-repeat center ;
+ 
+	height: 100px;
+	width: 30%;
+	background-color: #ff471a;
+	float: right;
+	padding: 10px;
+	color: #ffffff;
+	border: 3px solid #ff471a;
+	font-size: 80px;
+	font-family: Arial;
+	margin-right: 10px;
+	font-family: 'Rammetto One', cursive;
+	text-align: right;
+	margin-top: 10px;
+}
+#explore:hover {
+	color: #ffff1a;
+} 
+#explore:active {
+	color:#4d4d00;
+} 
+#about:hover {
+	color: #ffff1a;
+} 
+#about:active {
+	color: #4d4d00;
+} 
+

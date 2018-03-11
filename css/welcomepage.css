@@ -1,0 +1,93 @@
+* {
+	padding: 0px;
+	margin: 0px;	
+}	
+body {
+	background-color: #ff471a;
+}
+ 
+}
+article > div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+					
+}
+
+ul > li {
+	display: block;
+}
+
+.container {
+	width: 500px;
+	height: 500px;
+	background-color:#e62e00;
+	margin: 250px auto 0 auto;
+	text-align: center;
+	border: 5px solid silver;
+	border-radius: 10%;
+}
+input[type="text"],input[type="password"]{
+ width: 300px;
+ height:40px;
+ font-size: 18px;
+ margin-bottom: 15px;
+ border-radius: 10px;
+ padding-left: 20px;
+ margin-top: 20px;
+} 
+.container img {
+	margin: -70px 0 30px 0;
+
+}   
+.signin {
+	cursor: pointer;
+	padding: 10px 50px;
+	background-color:#ff471a;
+	font-size: 25px;
+	font-family: 'Rammetto One', cursive;
+	color: #ffebe6;
+	border-bottom: 5px solid silver;
+}
+.signin:hover {
+	background-color: #ff5c33;
+}
+.or {
+	font-family: 'Rammetto One', cursive;
+	font-size: 10px;
+	color: #ffebe6;
+
+}
+.signup {
+	cursor: pointer;
+	padding: 10px 20px;
+	background-color:#ff471a;
+	font-size: 10px;
+	font-family: 'Rammetto One', cursive;
+	color: #ffebe6;
+	border-bottom: 3px solid silver;
+}
+.signup:hover {
+	background-color: #ff5c33;
+}
+.forgot {
+
+	font-size: 25px;
+	color: white;
+	font-family: 'Mina', sans-serif;
+}
+.forgot:hover {
+	background-color: #fff;
+	color: #ff471a;
+}
+.social i{
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+}
+.social i:hover {
+	
+	color: #1a394f;
+	cursor: pointer;
+
+
+}
