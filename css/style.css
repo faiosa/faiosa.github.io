@@ -18,6 +18,7 @@ header {
 	
 }
 .text {
+	cursor: pointer;
 	border-top: 5px solid #F4ED0AFF;
 	border-bottom: 5px solid #F4ED0AFF;
 	border-radius: 35%;
@@ -36,7 +37,11 @@ header {
 
 
 }
+.login {
+	width: 300px;
+}
 .tele:hover {
+	cursor: pointer;
 	color: #000;
 	border-bottom: 5px solid #F4D20AFF;
 	border-bottom-left-radius: 30%;
@@ -45,6 +50,7 @@ header {
 	border-bottom: 5px solid #484D19FF;
 }
 .yt:hover {
+	cursor: pointer;
 	color: #000;
 	border-bottom: 5px solid #F4D20AFF;
 }
@@ -52,6 +58,7 @@ header {
 	border-bottom: 5px solid #484D19FF;
 }
 .google:hover {
+	cursor: pointer;
 	color: #000;
 	border-bottom: 5px solid #F4D20AFF;
 }
@@ -59,6 +66,7 @@ header {
 	border-bottom: 5px solid #484D19FF;
 }
 .twitter:hover {
+	cursor: pointer;
 	color: #000;
 	border-bottom: 5px solid #F4D20AFF;
 	border-bottom-right-radius: 30%;
@@ -69,33 +77,222 @@ header {
 }
 .login {
 
-	position: absolute;
+	position: relative;
 }
 
 .signin {
-
-	
 	height: 75px;
 	width: 200px;
 	cursor: pointer;
-	background-color:#ff471a;
-	font-size: 10px;
+	background-color:#FF5800FF;
+	font-size: 35px;
 	font-family: 'Rammetto One', cursive;
 	color: #ffebe6;
+	margin-left: 20px;
+	border: 3px solid #FF5800FF;
 	
 }
-.or {
-	font-size: 10px;
-	font-family: 'Rammetto One', cursive;
+.signin:hover {
+	color: #000;
+	border-bottom: 5px solid #F4D20AFF;
 }
-.signup {
+.container {
+	display: flex;
+	width: 100%;
+	height: 600px;
+	justify-content: space-between;
 	
-	height: 40px;
-	width: 100px;
-	cursor: pointer;
-	background-color:#ff471a;
-	font-size: 6px;
-	font-family: 'Rammetto One', cursive;
-	color: #ffebe6;
+}
+.movie {
+	background: url(../img/blade-runner.jpg);
+	display: flex;
+	justify-content: center;
+	width:25%;
+	background-color: #F2EA0CFF;
+	color: #000;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 60px;
+}
+.music {
+	background: url(../img/Imagine_Dragons.jpg);
+	display: flex;
+	justify-content: center;
+	width: 25%;
+	background-color: #F9AE05FF;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 60px;
+}
+.serial {
+	background: url(../img/dark-tv-netflix.jpg) center center;
+	display: flex;
+	justify-content: center;
+	width: 25%;
+	background-color: #F2EA0CFF;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 60px;
+
+}
+.science {
+	background: url(../img/spacex.jpg) center;
+	display: flex;
+	justify-content: center;
+	width: 25%;
+	background-color: #F2EA0CFF;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 60px;
+}
+.bestmovietext {
+	border: 5px solid #000;
+	width: 100%;
+	height: 100px;
+	background-color: #1FDF58FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 100px;
+}
+.bestmovie {
+	display:flex;
+	flex-direction: row;
+}
+.bestmovievideo {
+	width: 60%;
+	height: 600px;
+	background-color: #FFF800FF;
+
+}
+.bestmovievideotext {
+	width: 40%;
+	height: 600px;
+	background-color: #06F6F8FF;
+	font-family: 'Oswald', sans-serif;
+	background: url(../img/blade-runner.jpg);
+}
+.onemovie {
 	text-align: center;
-	
+	font-size: 70px;
+	border-bottom: 3px solid #FFFFFFFF;
+}
+.twomovie {
+	font-size: 40px;
+}
+.ourreviewmovie {
+	font-size: 25px;
+}
+.bestmusictext {
+	border: 5px solid #000;
+	width: 100%;
+	height: 100px;
+	background-color: #1FDF58FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 100px;
+}
+.bestmusic {
+	display:flex;
+	flex-direction: row;
+}
+.bestmusicvideo {
+	width: 60%;
+	height: 600px;
+	background-color: #FFF800FF;
+
+}
+.bestmusicvideotext {
+	width: 40%;
+	height: 600px;
+	background-color: #06F6F8FF;
+	font-family: 'Oswald', sans-serif;
+	background: url(../img/next-to-me-imagine-dragons.jpg);
+
+}
+.onemusic {
+	text-align: center;
+	font-size: 70px;
+	border-bottom: 3px solid #FFFFFFFF;
+}
+.twomusic {
+	font-size: 40px;
+}
+.ourreviewmusic {
+	font-size: 25px;
+}
+.bestserialtext {
+	border: 5px solid #000;
+	width: 100%;
+	height: 100px;
+	background-color: #1FDF58FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 100px;
+}
+.bestserial {
+	display:flex;
+	flex-direction: row;
+}
+.bestserialvideo {
+	width: 60%;
+	height: 600px;
+	background-color: #FFF800FF;
+
+}
+.bestserialvideotext {
+	width: 40%;
+	height: 600px;
+	background-color: #fff;
+	font-family: 'Oswald', sans-serif;
+	background: url(../img/dark-netflix-02-1.png)center;
+}
+.oneserial {
+	text-align: center;
+	font-size: 70px;
+	border-bottom: 3px solid #FFFFFFFF;
+}
+.twoserial {
+	font-size: 30px;
+	color: #fff;
+}
+.ourreviewserial {
+	font-size: 25px;
+	color: #fff;
+}
+
+.bestsciencetext {
+	border: 5px solid #000;
+	width: 100%;
+	height: 100px;
+	background-color: #1FDF58FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 100px;
+}
+.bestscience {
+	display:flex;
+	flex-direction: row;
+}
+.bestsciencevideo {
+	width: 60%;
+	height: 600px;
+	background-color: #FFF800FF;
+
+}
+.bestsciencevideotext {
+	width: 40%;
+	height: 600px;
+	background-color: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+.onescience {
+	font-size: 50px;
+}
+.twoscience {
+	font-size: 120px;
+	text-align: center;
+}
